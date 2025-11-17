@@ -10,7 +10,9 @@ const Projects = () => {
       description: "Développement d'un modèle pour détecter et classifier les émotions dans des textes en Ewe (langue locale Togo/Ghana).",
       details: "Étapes : collecte, annotation manuelle, préparation, construction, test et déploiement en temps réel.",
       tags: ["NLP", "Deep Learning", "Classification", "Ewe Language"],
-      links: []
+      links: [
+        { type: "github", url: "https://github.com/debgnuito", label: "Voir le code" }
+      ]
     },
     {
       title: "MLOps : Prévision des retards de vols aériens",
@@ -27,21 +29,27 @@ const Projects = () => {
       description: "Fine-tuning d'un modèle LLaMA spécialisé en médecine pour répondre aux questions COVID.",
       details: "Étapes : collecte, prétraitement, fine-tuning, évaluation et déploiement.",
       tags: ["LLM", "LLaMA", "Fine-tuning", "Medical NLP", "French"],
-      links: []
+      links: [
+        { type: "github", url: "https://github.com/debgnuito", label: "Voir le code" }
+      ]
     },
     {
       title: "Computer Vision : Tri intelligent des déchets",
       description: "Classification, détection et segmentation de déchets organiques et recyclables dans des environnements complexes.",
       details: "Utilisation de YOLO et techniques de segmentation avancées pour un tri automatisé.",
       tags: ["Computer Vision", "YOLO", "Classification", "Segmentation", "Sustainability"],
-      links: []
+      links: [
+        { type: "github", url: "https://github.com/debgnuito", label: "Voir le code" }
+      ]
     },
     {
       title: "Application de Traçabilité des Produits (Blockchain)",
       description: "Certification des produits via blockchain Ethereum (Ganache) avec interface React.",
       details: "Technologies : Truffle, MetaMask, Ganache, React pour une solution de traçabilité décentralisée.",
       tags: ["Blockchain", "Ethereum", "React", "Truffle", "Web3", "MetaMask"],
-      links: []
+      links: [
+        { type: "github", url: "https://github.com/debgnuito", label: "Voir le code" }
+      ]
     }
   ];
 

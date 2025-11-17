@@ -1,5 +1,9 @@
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail, MapPin, Phone } from "lucide-react";
+import profilePhoto from "@/assets/profile-photo.jpg";
+import pythonLogo from "@/assets/python-logo.png";
+import k8sLogo from "@/assets/k8s-logo.png";
+import mlLogo from "@/assets/ml-logo.png";
 
 const Hero = () => {
   const scrollToSection = (id: string) => {
@@ -13,13 +17,43 @@ const Hero = () => {
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center text-white">
-          <div className="mb-8 animate-fade-in">
+          <div className="mb-8 animate-fade-in flex flex-col items-center">
+            <div className="mb-6 relative">
+              <div className="w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-white/30 shadow-2xl">
+                <img 
+                  src={profilePhoto} 
+                  alt="Débora GNUITO - Ingénieur de Données" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </div>
             <h1 className="text-5xl md:text-7xl font-bold mb-4 tracking-tight">
               Débora GNUITO
             </h1>
             <p className="text-2xl md:text-3xl font-light mb-6 text-primary-foreground/90">
               Ingénieur de Données
             </p>
+            
+            <div className="flex gap-6 items-center justify-center mb-4">
+              <div className="group flex flex-col items-center gap-2">
+                <div className="w-16 h-16 bg-white/10 backdrop-blur-sm rounded-lg p-3 border border-white/20 transition-all group-hover:bg-white/20 group-hover:scale-110">
+                  <img src={pythonLogo} alt="Python" className="w-full h-full object-contain" />
+                </div>
+                <span className="text-xs text-white/70">Python</span>
+              </div>
+              <div className="group flex flex-col items-center gap-2">
+                <div className="w-16 h-16 bg-white/10 backdrop-blur-sm rounded-lg p-3 border border-white/20 transition-all group-hover:bg-white/20 group-hover:scale-110">
+                  <img src={k8sLogo} alt="Kubernetes" className="w-full h-full object-contain" />
+                </div>
+                <span className="text-xs text-white/70">Kubernetes</span>
+              </div>
+              <div className="group flex flex-col items-center gap-2">
+                <div className="w-16 h-16 bg-white/10 backdrop-blur-sm rounded-lg p-3 border border-white/20 transition-all group-hover:bg-white/20 group-hover:scale-110">
+                  <img src={mlLogo} alt="Machine Learning" className="w-full h-full object-contain" />
+                </div>
+                <span className="text-xs text-white/70">ML/AI</span>
+              </div>
+            </div>
           </div>
           
           <p className="text-lg md:text-xl mb-8 max-w-3xl mx-auto leading-relaxed text-primary-foreground/80">

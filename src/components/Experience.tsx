@@ -1,6 +1,7 @@
-import { Briefcase } from "lucide-react";
+import { Briefcase, ExternalLink } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 
 const Experience = () => {
   const experiences = [
@@ -16,7 +17,8 @@ const Experience = () => {
         "Automatisation d'environnements Jupyter avec toutes les dépendances (CPU/GPU/RAM/Disque)",
         "Reproductibilité des environnements garantie avec Ansible"
       ],
-      tags: ["Kubernetes", "Docker", "Harbor", "Ansible", "Jupyter"]
+      tags: ["Kubernetes", "Docker", "Harbor", "Ansible", "Jupyter"],
+      link: "https://www.linkedin.com/in/debgnuito"
     },
     {
       title: "Analyse et prédiction des données en temps réel",
@@ -28,7 +30,8 @@ const Experience = () => {
         "Analyse en temps réel de données de cryptomonnaies via Apache Kafka, Spark et Elasticsearch",
         "Détection d'objets et analyse des sentiments sur flux vidéo avec OpenCV, YOLO et DeepFace"
       ],
-      tags: ["Kafka", "Spark", "Elasticsearch", "OpenCV", "YOLO", "DeepFace"]
+      tags: ["Kafka", "Spark", "Elasticsearch", "OpenCV", "YOLO", "DeepFace"],
+      link: "https://www.linkedin.com/in/debgnuito"
     },
     {
       title: "Mise en place d'une architecture Big Data pour la qualité des données",
@@ -39,7 +42,8 @@ const Experience = () => {
         "Suivi et identification des métriques de qualité des données",
         "Assurance de la qualité d'un flux de données avec Apache Griffin"
       ],
-      tags: ["Apache Griffin", "Big Data", "Data Quality"]
+      tags: ["Apache Griffin", "Big Data", "Data Quality"],
+      link: "https://www.sifast.com"
     }
   ];
 
@@ -78,13 +82,23 @@ const Experience = () => {
                     </li>
                   ))}
                 </ul>
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap gap-2 mb-4">
                   {exp.tags.map((tag, tagIndex) => (
                     <Badge key={tagIndex} variant="secondary" className="text-xs">
                       {tag}
                     </Badge>
                   ))}
                 </div>
+                {exp.link && (
+                  <div className="pt-4 border-t">
+                    <Button variant="outline" size="sm" asChild>
+                      <a href={exp.link} target="_blank" rel="noopener noreferrer">
+                        <ExternalLink className="mr-2 h-4 w-4" />
+                        En savoir plus
+                      </a>
+                    </Button>
+                  </div>
+                )}
               </CardContent>
             </Card>
           ))}
