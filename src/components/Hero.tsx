@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail, MapPin, Phone } from "lucide-react";
-import profilePhoto from "@/assets/profile-photo.png";
+import profilePhoto from "@/assets/profile-photo.jpg";
 import pythonLogo from "@/assets/python-logo.png";
 import k8sLogo from "@/assets/k8s-logo.png";
 import mlLogo from "@/assets/ml-logo.png";
