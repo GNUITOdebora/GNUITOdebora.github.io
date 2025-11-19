@@ -36,19 +36,22 @@ const Hero = () => {
             
             <div className="flex gap-6 items-center justify-center mb-4">
               <div className="group flex flex-col items-center gap-2">
-                <div className="w-16 h-16 bg-white/10 backdrop-blur-sm rounded-lg p-3 border border-white/20 transition-all group-hover:bg-white/20 group-hover:scale-110">
+                <div className="w-16 h-16 bg-white rounded-lg p-3 border border-white/20 transition-all group-hover:scale-110">
+
                   <img src={pythonLogo} alt="Python" className="w-full h-full object-contain" />
                 </div>
                 <span className="text-xs text-white/70">Python</span>
               </div>
               <div className="group flex flex-col items-center gap-2">
-                <div className="w-16 h-16 bg-white/10 backdrop-blur-sm rounded-lg p-3 border border-white/20 transition-all group-hover:bg-white/20 group-hover:scale-110">
+                <div className="w-16 h-16 bg-white rounded-lg p-3 border border-white/20 transition-all group-hover:scale-110">
+
                   <img src={k8sLogo} alt="Kubernetes" className="w-full h-full object-contain" />
                 </div>
                 <span className="text-xs text-white/70">Kubernetes</span>
               </div>
               <div className="group flex flex-col items-center gap-2">
-                <div className="w-16 h-16 bg-white/10 backdrop-blur-sm rounded-lg p-3 border border-white/20 transition-all group-hover:bg-white/20 group-hover:scale-110">
+                <div className="w-16 h-16 bg-white rounded-lg p-3 border border-white/20 transition-all group-hover:scale-110">
+
                   <img src={mlLogo} alt="Machine Learning" className="w-full h-full object-contain" />
                 </div>
                 <span className="text-xs text-white/70">ML/AI</span>
