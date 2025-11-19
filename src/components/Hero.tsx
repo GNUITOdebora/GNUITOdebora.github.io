@@ -4,6 +4,10 @@ import profilePhoto from "@/assets/profile-photo.jpg";
 import pythonLogo from "@/assets/Python-logo.png";
 import k8sLogo from "@/assets/Kubernetes_logo.png";
 import mlLogo from "@/assets/ml-logo.png";
+import devoplogo from "@/assets/schema-devops.png";
+import shelllogo from "@/assets/Shell.png";
+
+
 
 const Hero = () => {
   const scrollToSection = (id: string) => {
@@ -49,6 +53,26 @@ const Hero = () => {
                 </div>
                 <span className="text-xs text-white/70">Kubernetes</span>
               </div>
+
+              
+              <div className="group flex flex-col items-center gap-2">
+                <div className="w-16 h-16 bg-white rounded-lg p-3 border border-white/20 transition-all group-hover:scale-110">
+
+                  <img src={devoplogo} alt="devop" className="w-full h-full object-contain" />
+                </div>
+                <span className="text-xs text-white/70">devop</span>
+              </div>
+
+              <div className="group flex flex-col items-center gap-2">
+                <div className="w-16 h-16 bg-white rounded-lg p-3 border border-white/20 transition-all group-hover:scale-110">
+
+                  <img src={shelllogo} alt="shell" className="w-full h-full object-contain" />
+                </div>
+                <span className="text-xs text-white/70">shell</span>
+              </div>
+
+
+              
               <div className="group flex flex-col items-center gap-2">
                 <div className="w-16 h-16 bg-white rounded-lg p-3 border border-white/20 transition-all group-hover:scale-110">
 
