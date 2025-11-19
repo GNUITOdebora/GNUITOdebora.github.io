@@ -19,7 +19,7 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto text-center text-white">
           <div className="mb-8 animate-fade-in flex flex-col items-center">
             <div className="mb-6 relative">
-              <div className="w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-white/30 shadow-2xl">
+              <div className="w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden  shadow-2xl">
                 <img 
                   src={profilePhoto} 
                   alt="Débora GNUITO - Ingénieur de Données" 
