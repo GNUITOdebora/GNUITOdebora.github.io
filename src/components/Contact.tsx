@@ -89,20 +89,6 @@ const Contact = () => {
                       GitHub - @debgnuito
                     </a>
                   </Button>
-                  
-                  <div className="pt-6">
-                    <h4 className="font-semibold text-foreground mb-2">Centres d'intérêt</h4>
-                    <p className="text-muted-foreground text-sm">
-                      Actualité • Voyages • Innovation • Lecture
-                    </p>
-                  </div>
-                  
-                  <div className="pt-4">
-                    <h4 className="font-semibold text-foreground mb-2">Atouts</h4>
-                    <p className="text-muted-foreground text-sm">
-                      Autonomie • Dynamisme • Esprit d'équipe
-                    </p>
-                  </div>
                 </div>
               </div>
             </CardContent>
