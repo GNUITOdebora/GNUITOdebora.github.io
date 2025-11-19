@@ -57,7 +57,7 @@ const Hero = () => {
           </div>
           
           <p className="text-lg md:text-xl mb-8 max-w-3xl mx-auto leading-relaxed text-primary-foreground/80">
-            Ingénieure en informatique spécialisée en ingénierie des données, avec expertise dans la mise en place de pipelines, 
+            Ingénieure en informatique spécialisée en ingénierie des données, avec une expérience dans la mise en place de pipelines, 
             le traitement distribué et l'analyse en temps réel via les technologies Big Data. Passionnée par l'optimisation et 
             la valorisation des données.
           </p>
