@@ -102,24 +102,27 @@ const Experience = () => {
                   ))}
                 </ul>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  {exp.tags.map((tag, tagIndex) => (
-                    <Badge
-                      key={tagIndex}
-                      variant="secondary"
-                      className="text-xs flex items-center gap-2 py-1 px-2"
-                    >
-                      {techLogos[tag] ? (
-                        <img
-                          src={techLogos[tag]}
-                          alt={tag}
-                          className="h-4 w-4 object-contain"
-                        />
-                      ) : (
-                        tag
-                      )}
-                    </Badge>
-                  ))}
-                </div>
+                    {exp.tags.map((tag, tagIndex) => (
+                      <Badge
+                        key={tagIndex}
+                        variant="outline"
+                        className="text-xs flex items-center gap-2 py-1 px-2 bg-transparent border-primary/20"
+                      >
+                        {techLogos[tag] ? (
+                          <img
+                            src={techLogos[tag]}
+                            alt={tag}
+                            title={tag}
+                            loading="lazy"
+                            className="h-6 w-6 object-contain"
+                            style={{ backgroundColor: "transparent" }}
+                          />
+                        ) : (
+                          <span>{tag}</span>
+                        )}
+                      </Badge>
+                    ))}
+                  </div>
 
                 {exp.link && (
                   <div className="pt-4 border-t">
