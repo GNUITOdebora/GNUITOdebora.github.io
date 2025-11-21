@@ -68,7 +68,7 @@ const Projects = () => {
       ],
       tags: ["Computer Vision", "YOLO", "Classification", "Segmentation", "Sustainability"],
       links: [
-        { type: "demo", url: "https://github.com/debgnuito", label: "Voir le projet" }
+        { type: "demo", url: "https://www.canva.com/design/DAGaP_uwNFM/VPfThqfBKcvQISTx7NNwnA/view?utm_content=DAGaP_uwNFM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h9a89ca6ee5", label: "Voir le projet" }
       ]
     },
     {
