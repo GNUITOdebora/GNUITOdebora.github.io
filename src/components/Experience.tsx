@@ -3,6 +3,16 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 
+const techLogos = {
+  Kubernetes: "/assets/kubernetes.png",
+  Docker: "/assets/docker.png",
+  Harbor: "/assets/harbor.png",
+  Kafka: "/assets/kafka.png",
+  Spark: "/assets/spark.png",
+  Elasticsearch: "/assets/elasticsearch.png",
+};
+
+
 const Experience = () => {
   const experiences = [
     {
@@ -84,11 +94,24 @@ const Experience = () => {
                 </ul>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {exp.tags.map((tag, tagIndex) => (
-                    <Badge key={tagIndex} variant="secondary" className="text-xs">
-                      {tag}
+                    <Badge
+                      key={tagIndex}
+                      variant="secondary"
+                      className="text-xs flex items-center gap-2 py-1 px-2"
+                    >
+                      {techLogos[tag] ? (
+                        <img
+                          src={techLogos[tag]}
+                          alt={tag}
+                          className="h-4 w-4 object-contain"
+                        />
+                      ) : (
+                        tag
+                      )}
                     </Badge>
                   ))}
                 </div>
+
                 {exp.link && (
                   <div className="pt-4 border-t">
                     <Button variant="outline" size="sm" asChild>
