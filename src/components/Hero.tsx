@@ -3,6 +3,7 @@ import { Github, Linkedin, Mail, MapPin, Phone } from "lucide-react";
 import profilePhoto from "@/assets/profile-photo.jpg";
 import pythonLogo from "@/assets/Python-logo.png";
 import k8sLogo from "@/assets/Kubernetes_logo.png";
+import bigdataLogo from "@/assets/bigdata.png";
 import mlLogo from "@/assets/ml-logo.png";
 import devoplogo from "@/assets/schema-devops.png";
 import shelllogo from "@/assets/Shell.png";
@@ -49,7 +50,7 @@ const Hero = () => {
               <div className="group flex flex-col items-center gap-2">
                 <div className="w-16 h-16 bg-white rounded-lg p-3 border border-white/20 transition-all group-hover:scale-110">
 
-                  <img src={k8sLogo} alt="Kubernetes" className="w-full h-full object-contain" />
+                  <img src={bigdataLogo} alt="BigData" className="w-full h-full object-contain" />
                 </div>
                 <span className="text-xs text-white/70">Kubernetes</span>
               </div>
