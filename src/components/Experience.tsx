@@ -18,7 +18,7 @@ const Experience = () => {
         "Reproductibilité des environnements garantie avec Ansible"
       ],
       tags: ["Kubernetes", "Docker", "Harbor", "Ansible", "Jupyter"],
-      link: "https://www.linkedin.com/in/debgnuito"
+      link: "https://www.canva.com/design/DAGnnPHTnr4/gI50trYWSb_ymyzjTkJMJg/view?utm_content=DAGnnPHTnr4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hc446caab3d"
     },
     {
       title: "Analyse et prédiction des données en temps réel",
@@ -31,7 +31,7 @@ const Experience = () => {
         "Détection d'objets et analyse des sentiments sur flux vidéo avec OpenCV, YOLO et DeepFace"
       ],
       tags: ["Kafka", "Spark", "Elasticsearch", "OpenCV", "YOLO", "DeepFace"],
-      link: "https://www.linkedin.com/in/debgnuito"
+      link: "https://www.canva.com/design/DAGRAmNwtjY/x1_7OJTdMecYzNUKltcOLw/view?utm_content=DAGRAmNwtjY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h1d9eac08a5"
     },
     {
       title: "Mise en place d'une architecture Big Data pour la qualité des données",
@@ -43,7 +43,7 @@ const Experience = () => {
         "Assurance de la qualité d'un flux de données avec Apache Griffin"
       ],
       tags: ["Apache Griffin", "Big Data", "Data Quality"],
-      link: "https://www.sifast.com"
+      link: "https://www.canva.com/design/DAF0r7ruTUQ/Ti-Zj_UcsfM0AKYPQMkzjw/view?utm_content=DAF0r7ruTUQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hdfd58a14af"
     }
   ];
 
