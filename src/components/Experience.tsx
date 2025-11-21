@@ -3,13 +3,22 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 
-const techLogos = {
-  Kubernetes: "/assets/kubernetes.png",
-  Docker: "/assets/docker.png",
-  Harbor: "/assets/harbor.png",
-  Kafka: "/assets/kafka.png",
-  Spark: "/assets/spark.png",
-  Elasticsearch: "/assets/elasticsearch.png",
+import kubernetesLogo from "@/assets/kubernetes.png";
+import dockerLogo from "@/assets/docker.png";
+import harborLogo from "@/assets/harbor.png";
+
+import kafkaLogo from "@/assets/kafka.png";
+import sparkLogo from "@/assets/spark.png";
+import elasticsearchLogo from "@/assets/elasticsearch.png";
+
+const techLogos: Record<string, string> = {
+  Kubernetes: kubernetesLogo,
+  Docker: dockerLogo,
+  Harbor: harborLogo,
+  Kafka: kafkaLogo,
+  Spark: sparkLogo,
+  Elasticsearch: elasticsearchLogo,
+  
 };
 
 
