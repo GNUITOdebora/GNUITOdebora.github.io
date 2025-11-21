@@ -19,7 +19,7 @@ const Projects = () => {
       ],
       tags: ["NLP", "Deep Learning", "Classification", "Ewe Language"],
       links: [
-        { type: "demo", url: "https://github.com/debgnuito", label: "Voir le projet" }
+        { type: "demo", url: "https://www.canva.com/design/DAGFiY82ZV4/tohH29TRDZSoZXLQhDFiNA/view?utm_content=DAGFiY82ZV4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h854546e2f5", label: "Voir le projet" }
       ]
     },
     {
@@ -35,8 +35,8 @@ const Projects = () => {
       ],
       tags: ["MLOps", "Regression", "MLflow", "Docker", "Heroku", "Arize"],
       links: [
-        { type: "demo", url: "https://frontend-url.com", label: "Frontend" },
-        { type: "github", url: "https://github.com/debgnuito/project", label: "Code" }
+        { type: "demo", url: "https://dagshub.com/deb.gnuito/MLOPS", label: "code dagshub" },
+        { type: "github", url: "https://github.com/GNUITOdebora/MLOPS_flight_delay", label: "Code" }
       ]
     },
     {
@@ -52,7 +52,7 @@ const Projects = () => {
       ],
       tags: ["LLM", "LLaMA", "Fine-tuning", "Medical NLP", "French"],
       links: [
-        { type: "demo", url: "https://github.com/debgnuito", label: "Voir le projet" }
+        { type: "demo", url: "https://www.canva.com/design/DAGbJPMa3wY/pS2KZmew6P5xo3CTWPGX8Q/view?utm_content=DAGbJPMa3wY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hd11d772d86", label: "Voir le projet" }
       ]
     },
     {
@@ -85,7 +85,7 @@ const Projects = () => {
       ],
       tags: ["Blockchain", "Ethereum", "React", "Truffle", "Web3", "MetaMask"],
       links: [
-        { type: "demo", url: "https://github.com/debgnuito", label: "Voir le projet" }
+        { type: "demo", url: "https://github.com/GNUITOdebora/product-traceability", label: "Voir le projet" }
       ]
     }
   ];
