@@ -52,7 +52,7 @@ const Hero = () => {
 
                   <img src={bigdataLogo} alt="BigData" className="w-full h-full object-contain" />
                 </div>
-                <span className="text-xs text-white/70">Kubernetes</span>
+                <span className="text-xs text-white/70">BigData</span>
               </div>
 
               
